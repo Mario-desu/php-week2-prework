@@ -19,6 +19,7 @@ if(isset($_SESSION["adm"])){
 if(isset($_SESSION["user"])){
     $session = $_SESSION["user"];
 }else {
+    
     $session = $_SESSION["adm"];
 }
 $sql = "SELECT * FROM user WHERE id = {$session}";
