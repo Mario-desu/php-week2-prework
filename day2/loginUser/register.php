@@ -4,7 +4,7 @@ if ( isset($_SESSION['user']) != "") {
    header("Location: home.php" ); // redirects to home.php
 }
 if (isset($_SESSION[ 'adm' ]) != "") {
-   header("Location: dashboard.php"); // redirects to home.php
+   header("Location: dashboard.php"); // redirects to dashboard.php
 }
 require_once  'components/db_connect.php';
 require_once 'components/file_upload.php' ;

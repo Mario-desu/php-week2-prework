@@ -29,7 +29,7 @@ $connect->close();
         <?php require_once 'components/boot.php'?>
         <style>
             .userImage{
-                width: 200px;
+                /* width: 200px; */
                 height: 200px;
             }
             .hero {

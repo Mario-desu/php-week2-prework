@@ -25,7 +25,7 @@ if(isset($_SESSION["user"])){
 $sql = "SELECT * FROM user WHERE id = {$session}";
 $result = mysqli_query($connect, $sql);
 $row = $result->fetch_assoc();
-# var_dump($row);
+//  var_dump($row);
 //fetch and populate form
 if($row["status"] == "adm"){
     if (isset($_GET['id'])) {

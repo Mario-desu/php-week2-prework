@@ -35,7 +35,7 @@ if ($_POST) {
         $message = "The entry below was successfully created <br>
                         <table class='table w-50'><tr>
                         <td> $name </td>
-                        <td> $price </td>
+                        <td> € $price </td>
                         </tr></table><hr>
                         ";
         $uploadError = ($picture->error !=0)? $picture->ErrorMessage :'';
